@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "7d970260-0e5d-11ee-bdf3-c98634495bdb",
+  "version": "0.0.1",
+  "packageName": "yomse",
+  "developer": {
+    "name": "frankqianms",
+    "websiteUrl": "https://6r3n12tp-3007.asse.devtunnels.ms",
+    "privacyUrl": "https://6r3n12tp-3007.asse.devtunnels.ms/privacy.html",
+    "termsOfUseUrl": "https://6r3n12tp-3007.asse.devtunnels.ms/tou.html"
+  },
+  "name": {
+    "short": "yomse",
+    "full": "yomse"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [
+    {
+      "botId": "26ec236d-88fb-406e-aa79-82537a12ee92",
+      "canUpdateConfiguration": true,
+      "commands": [
+        {
+          "id": "yomseMessageExtension",
+          "title": "yomse Message Extension",
+          "description": "Description of yomse Message Extension",
+          "initialRun": true,
+          "parameters": [
+            {
+              "name": "parameter",
+              "description": "Description of the parameter",
+              "title": "Parameter"
+            }
+          ],
+          "type": "query"
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "6r3n12tp-3007.asse.devtunnels.ms"
+  ],
+  "showLoadingIndicator": false
+}
