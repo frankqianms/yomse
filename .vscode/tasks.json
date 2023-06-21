@@ -85,8 +85,7 @@
                 "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
                 "serve",
                 "--nobrowser",
-                "--verbose",
-                "--env .env.local"
+                "--verbose"
             ],
             "problemMatcher": [
                 {

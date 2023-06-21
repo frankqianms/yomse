@@ -17,7 +17,8 @@ const log = debug("msteams");
     // eslint-disable-next-line no-undef
     process.env.MICROSOFT_APP_ID,
     // eslint-disable-next-line no-undef
-    process.env.MICROSOFT_APP_PASSWORD)
+    // process.env.MICROSOFT_APP_PASSWORD)
+    process.env.SECRET_BOT_PASSWORD)
 
 export class YomseMessageExtensionBot extends TeamsActivityHandler {
 
